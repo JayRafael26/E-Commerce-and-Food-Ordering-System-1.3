@@ -1,0 +1,202 @@
+﻿@import url('bootstrap/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+@import url('fontawesome/css/all.css');
+@import url('fontawesome/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Paprika&display=swap');
+
+.quantity-textbox {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 400;
+    border: 0;
+    width: 250px;
+    height: 32px;
+    margin: 0;
+}
+.quantity-button-control {
+    display: inline-block;
+    border: 1px solid black;
+    border-width: 0px 0px 0px 1px;
+    margin: 0;
+    height: 32px;
+}
+
+.cart-summary-title {
+    font-size: 2.5vmin;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.cart-summary-body {
+    font-size: 2vmin;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.brandhead {
+    padding: 10px;
+    outline: 5px solid #f7a14c;
+    font-size: 3vmin;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.card-title {
+    text-align: center !important;
+    font-weight: bold;
+}
+
+.cart-style {
+    opacity: 0.87;
+    word-wrap: break-word;
+}
+
+    .cart-style:hover {
+        opacity: 1;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+.cent {
+    text-align: center !important;
+}
+
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.footicon {
+    font-size: 2.5vmin;
+}
+
+.large {
+    font-size: 4vmin;
+}
+
+.loginbg {
+    background-image: url('images/MangAtongsBG.png');
+    background-size: contain;
+    background-position: center;
+}
+
+.logo {
+    width: 40%;
+    text-align: center;
+}
+
+
+.mons {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.mynav {
+   
+    font-family: 'Montserrat', sans-serif;
+}
+.order {
+    font-size: 1.8vmin;
+}
+
+.productimage {
+    width: 60%;
+}
+
+.productprice {
+    font-size: 2.3vmin;
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+}
+.card-effect {
+    display: block;
+    opacity: 0.87;
+    word-wrap: break-word;
+}
+
+    .card-effect:hover {
+        opacity: 1;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+.collage-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.8s ease;
+}
+
+.collage-container:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+}
+
+.collage-img {
+    position: absolute;
+}
+
+.collage-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 2vmin;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .8s ease;
+}
+
+.collage-container:hover .collage-title {
+    top: 100px;
+}
+
+.button {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease, bottom .35s ease;
+}
+
+
+.collage-container:hover .button {
+    opacity: 1;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+    .map-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+    }
+
+.back {
+    padding: 0.5%;
+    background: #10314c;
+}
