@@ -7,9 +7,3 @@ The system has the following features
 For the User: Register/Login, View Items for Sale, Cart System, Checkout Orders, View Orders(Pending, Successful, Unsuccessful).
 For the Admin: Login, Inventory System, Dashboard, Add/Delete Items.
 
-Group Members:
-Galit, Jay Rafael
-Gapi, Kenneth
-Talosig, Michael Kristian
-
-
